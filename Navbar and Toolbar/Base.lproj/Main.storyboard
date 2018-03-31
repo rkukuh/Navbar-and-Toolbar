@@ -28,8 +28,29 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="09h-Xy-Tgy">
+                                <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem systemItem="action" id="Q6K-fx-axH"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="BhN-oI-RhJ"/>
+                                    <barButtonItem systemItem="camera" id="iQe-RV-uYs"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="J9o-Ae-wcg"/>
+                                    <barButtonItem systemItem="trash" id="5sq-Bq-SI6"/>
+                                </items>
+                            </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Photo App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udv-qV-gUr">
+                                <rect key="frame" x="98" y="309.5" width="180" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="udv-qV-gUr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aPD-xB-gFX"/>
+                            <constraint firstItem="udv-qV-gUr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nCk-Ob-5hJ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
